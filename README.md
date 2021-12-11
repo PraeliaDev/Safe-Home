@@ -49,7 +49,7 @@ The application has a distinct use case, but appeals to many different types of 
 
 | Project                            | Safe-Home URL                                         |
 |------------------------------------|-------------------------------------------------------|
-|  Safe-Home                         | <>                                                    |
+|  Safe-Home                         | https://praeliadev.github.io/Safe-Home/                                                    |
 
 
 ## Contributers
