@@ -6,7 +6,7 @@ function handleSubmit(event) {
   event.preventDefault();
 
   var area = document.querySelector("#area-name").value;
-  /*var ajaxUrl =
+  var ajaxUrl =
     "https://zoopla.p.rapidapi.com/auto-complete?search_term=" +
     area +
     "&search_type=listings";
@@ -29,7 +29,7 @@ function handleSubmit(event) {
     selectEl.setAttribute("id", "list");
     areaListEl.appendChild(selectEl);
     suggestions.forEach(renderarea);
-  });*/
+  });
 
   if (area != "") {
     var localStorageKey = "areas";
@@ -39,6 +39,6 @@ function handleSubmit(event) {
     // set localStorage
     localStorage.setItem(localStorageKey, areaJSONStr);
 
-    window.location.href = "../results/result.html";
+    window.location.href = "./results/result.html";
   }
 }
